@@ -1,0 +1,148 @@
+﻿<Window x:Class="compass.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:compass"
+        mc:Ignorable="d"
+        Title="compass" Height="505.667" Width="405.801" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid Margin="0,0,-6,-0.667" Background="Black">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Canvas x:Name="canvas" HorizontalAlignment="Center" Margin="-80,70,-69.866,-217.849" Width="555" RenderTransformOrigin="0.5,0.5" Height="555">
+            <Ellipse Fill="#00FCFCFC" Stroke="White" VerticalAlignment="Center" Canvas.Top="0" Width="556" Height="556" Canvas.Left="0" d:IsLocked="True"/>
+            <Label x:Name="label" Content="N" Height="25" VerticalAlignment="Top" Width="21" Canvas.Left="268.083" Foreground="White" Canvas.Top="45.944"/>
+            <Path x:Name="长刻度" Data="M278,0.5 L278,555.5 M416.75,37.67795 L139.25,518.32205 M518.32205,139.25 L37.67795,416.75 M555.5,278 L0.5,278 M518.32205,416.75 L37.67795,139.25 M416.75,518.32205 L139.25,37.67795" Fill="#00FCFCFC" Height="556" Stretch="Fill" Stroke="White" Width="556" HorizontalAlignment="Center" VerticalAlignment="Center" Canvas.Top="0" Clip="M502.5,278 C502.5,401.98793 401.98793,502.5 278,502.5 C154.01207,502.5 53.5,401.98793 53.5,278 C53.5,154.01207 154.01207,53.5 278,53.5 C401.98793,53.5 502.5,154.01207 502.5,278 z M555.5,278 C555.5,431.25902 431.25902,555.5 278,555.5 C124.74098,555.5 0.5,431.25902 0.5,278 C0.5,124.74098 124.74098,0.5 278,0.5 C431.25902,0.5 555.5,124.74098 555.5,278 z" d:IsLocked="True"/>
+            <Path x:Name="短刻度" Data="M278,0.5 L278,555.5 M326.18737,4.7158485 L229.81263,551.28415 M416.75,37.67795 L139.25,518.32205 M456.37356,65.422667 L99.626438,490.57733 M518.32205,139.25 L37.67795,416.75 M538.7647,183.08941 L17.235298,372.91059 M555.5,278 L0.5,278 M551.28415,326.18737 L4.7158485,229.81263 M518.32205,416.75 L37.67795,139.25 M490.57733,456.37356 L65.422667,99.626438 M416.75,518.32205 L139.25,37.67795 M372.91059,538.7647 L183.08941,17.235298" Fill="#00FCFCFC" Height="556" Stretch="Fill" Stroke="White" Width="556" HorizontalAlignment="Center" VerticalAlignment="Center" Canvas.Top="0" RenderTransformOrigin="0.5,0.5" Clip="M523.70953,234.67478 C547.63739,370.37641 457.02685,499.78168 321.32522,523.70953 C185.62359,547.63739 56.218324,457.02685 32.290466,321.32522 C8.3626072,185.62359 98.973151,56.218324 234.67478,32.290466 C370.37641,8.3626072 499.78168,98.973151 523.70953,234.67478 z M551.28415,229.81263 C577.8973,380.7433 477.11804,524.671 326.18737,551.28415 C175.2567,577.8973 31.328998,477.11804 4.7158485,326.18737 C-21.897301,175.2567 78.881961,31.328998 229.81263,4.7158485 C380.7433,-21.897301 524.671,78.881961 551.28415,229.81263 z" d:IsLocked="True">
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="10"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+            <Label x:Name="label_N" Content="N" Height="25" VerticalAlignment="Top" Width="21" Canvas.Left="268.083" Foreground="White" Canvas.Top="45.944"/>
+            <Label x:Name="label_30" Content="30" Height="25" VerticalAlignment="Top" Width="24.464" Canvas.Left="375.536" Foreground="White" Canvas.Top="75" RenderTransformOrigin="0.5,0.5">
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="30"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+            </Label>
+            <Label x:Name="label_60" Content="60" Height="25" VerticalAlignment="Top" Width="24.835" Canvas.Left="456.139" Foreground="White" Canvas.Top="156.285" RenderTransformOrigin="0.5,0.5">
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="60"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+            </Label>
+            <Label x:Name="label_E" Content="E" Height="25" VerticalAlignment="Top" Width="18.5" Canvas.Left="488.472" Foreground="White" Canvas.Top="266.528" RenderTransformOrigin="0.5,0.5">
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="90"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+            </Label>
+            <Label x:Name="label_120" Content="120" Height="25" VerticalAlignment="Top" Width="30.954" Canvas.Left="452.686" Foreground="White" Canvas.Top="375.181" RenderTransformOrigin="0.5,0.5">
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="120"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+            </Label>
+            <Label x:Name="label_150" Content="150" Height="25" VerticalAlignment="Top" Width="30.74" Canvas.Left="372.464" Foreground="White" Canvas.Top="455.729" RenderTransformOrigin="0.5,0.5">
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="150"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+            </Label>
+            <Label x:Name="label_S" Content="S" Height="25" VerticalAlignment="Top" Width="16.458" Canvas.Left="270" Foreground="White" Canvas.Top="485" RenderTransformOrigin="0.5,0.5">
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="180"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+            </Label>
+            <Label x:Name="label_210" Content="210" Height="25" VerticalAlignment="Top" Width="32.161" Canvas.Left="151.575" Foreground="White" Canvas.Top="455.188" RenderTransformOrigin="0.5,0.5">
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="210"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+            </Label>
+            <Label x:Name="label_240" Content="240" Height="25" VerticalAlignment="Top" Width="33.826" Canvas.Left="70.684" Foreground="White" Canvas.Top="375" RenderTransformOrigin="0.5,0.5">
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="240"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+            </Label>
+            <Label x:Name="label_W" Content="W" Height="25" VerticalAlignment="Top" Width="22.75" Canvas.Left="46.694" Foreground="White" Canvas.Top="265.444" RenderTransformOrigin="0.5,0.5">
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="270"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+            </Label>
+            <Label x:Name="label_300" Content="300" Height="25" VerticalAlignment="Top" Width="31.66" Canvas.Left="72.14" Foreground="White" Canvas.Top="155.593" RenderTransformOrigin="0.5,0.5">
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="300"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+            </Label>
+            <Label x:Name="label_330" Content="330" Height="25" VerticalAlignment="Top" Width="32.071" Canvas.Left="152.8" Foreground="White" Canvas.Top="75.009" RenderTransformOrigin="0.5,0.5">
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="330"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+            </Label>
+        </Canvas>
+        <Slider x:Name="slider" HorizontalAlignment="Left" Margin="140,359,0,0" VerticalAlignment="Top" Width="131" ValueChanged="slider_ValueChanged" Maximum="360" Height="18"/>
+        <Label x:Name="label_TRU" Content="TRU" HorizontalAlignment="Left" Height="27" Margin="144,43,0,0" VerticalAlignment="Top" Width="35" Foreground="Lime"/>
+        <Label x:Name="label_MAG" Content="MAG" HorizontalAlignment="Left" Height="27" Margin="221,43,0,0" VerticalAlignment="Top" Width="41" Foreground="Lime"/>
+        <Label x:Name="label_DIRValue" Content="0" HorizontalAlignment="Center" Height="27" Margin="181,43,190,0" VerticalAlignment="Top" Width="35" Foreground="White" HorizontalContentAlignment="Center"/>
+    </Grid>
+</Window>

@@ -1,0 +1,16 @@
+C:\Users\jamin\source\repos\compass\bin\Debug\compass.exe.config
+C:\Users\jamin\source\repos\compass\bin\Debug\compass.exe
+C:\Users\jamin\source\repos\compass\bin\Debug\compass.pdb
+C:\Users\jamin\source\repos\compass\obj\Debug\compass.csprojAssemblyReference.cache
+C:\Users\jamin\source\repos\compass\obj\Debug\MainWindow.g.cs
+C:\Users\jamin\source\repos\compass\obj\Debug\App.g.cs
+C:\Users\jamin\source\repos\compass\obj\Debug\compass_MarkupCompile.cache
+C:\Users\jamin\source\repos\compass\obj\Debug\compass_MarkupCompile.lref
+C:\Users\jamin\source\repos\compass\obj\Debug\MainWindow.baml
+C:\Users\jamin\source\repos\compass\obj\Debug\compass.g.resources
+C:\Users\jamin\source\repos\compass\obj\Debug\compass.Properties.Resources.resources
+C:\Users\jamin\source\repos\compass\obj\Debug\compass.csproj.GenerateResource.cache
+C:\Users\jamin\source\repos\compass\obj\Debug\compass.exe
+C:\Users\jamin\source\repos\compass\obj\Debug\compass.pdb
+C:\Users\jamin\source\repos\compass\bin\Debug\LockheedMartin.Prepar3D.SimConnect.dll
+C:\Users\jamin\source\repos\compass\obj\Debug\compass.csproj.CopyComplete
